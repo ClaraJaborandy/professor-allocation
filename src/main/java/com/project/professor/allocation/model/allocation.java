@@ -57,7 +57,7 @@ public class Allocation {
 		this.id = id;
 	}
 
-	public Enum getDayOfWeek() {
+	public DayOfWeek getDayOfWeek() {
 		return DayOfWeek;
 	}
 
