@@ -3,14 +3,14 @@ package com.project.professor.allocation.model;
 public class Professor {
 
 	private Long id;
-	private Character cpf;
+	private String cpf;
 	private String name;
 
 	public Professor() {
 		super();
 	}
 
-	public Professor(Long id, Character cpf, String name) {
+	public Professor(Long id, String cpf, String name) {
 		super();
 		this.id = id;
 		this.cpf = cpf;
@@ -25,11 +25,11 @@ public class Professor {
 		this.id = id;
 	}
 
-	public Character getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(Character cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 

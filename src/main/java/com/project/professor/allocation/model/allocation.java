@@ -1,21 +1,21 @@
 package com.project.professor.allocation.model;
 import java.sql.Time;
 
-public class allocation {
+public class Allocation {
 
 	private Integer id;
-	private Character day;
+	private Enum DayOfWeek;
 	private Time end;
 	private Time start;
 
-	public allocation() {
+	public Allocation() {
 		super();
 	}
 
-	public allocation(Integer id, Character day, Time end, Time start) {
+	public Allocation(Integer id, Enum DayOfWeek, Time end, Time start) {
 		super();
 		this.id = id;
-		this.day = day;
+		this.DayOfWeek = DayOfWeek;
 		this.end = end;
 		this.start = start;
 	}
@@ -28,12 +28,12 @@ public class allocation {
 		this.id = id;
 	}
 
-	public Character getDay() {
-		return day;
+	public Enum getDayOfWeek() {
+		return DayOfWeek;
 	}
 
-	public void setDay(Character day) {
-		this.day = day;
+	public void setDay(Enum DayOfWeek) {
+		this.DayOfWeek = DayOfWeek;
 	}
 
 	public Time getEnd() {

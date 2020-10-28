@@ -1,15 +1,15 @@
 package com.project.professor.allocation.model;
 
-public class course {
+public class Course {
 
 	private Long id;
-	private Character name;
+	private String name;
 
-	public course() {
+	public Course() {
 		super();
 	}
 
-	public course(Long id, Character name) {
+	public Course(Long id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -23,11 +23,11 @@ public class course {
 		this.id = id;
 	}
 
-	public Character getName() {
+	public String getName() {
 		return name;
 	}
 
-	public void setName(Character name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
