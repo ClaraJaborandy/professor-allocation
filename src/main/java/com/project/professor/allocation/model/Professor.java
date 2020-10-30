@@ -68,4 +68,9 @@ public class Professor {
 		this.name = name;
 	}
 
+	public void setDepartment(Department department2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
